@@ -1,8 +1,4 @@
 FactoryBot.define do
-  
-  factory :admin do
-    email 'test@test.com'
-  end
 
   factory :lead do
     first_name 'John'
@@ -11,17 +7,22 @@ FactoryBot.define do
   end
 
   factory :event do
+    lead
     name 'test'
-    lead_id 1
   end
 
   factory :outreach do
-    lead_id 1
+    lead
     text "some text"
+  end
+  
+  factory :admin do
+    email 'test@test.com'
+    password 'password'
   end
 
   factory :setting do
-    admin_id 1
+    admin
     auto_text_content "More text"
   end
 
