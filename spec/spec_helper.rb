@@ -1,9 +1,18 @@
 require 'simplecov'
 SimpleCov.start "rails" do
-  # add_filter '/controllers'
-  # add_filter '/helpers/leads_helper'
-  # add_filter '/models/lead'
-  # add_filter '/models/admin'
+  add_filter '/controllers'
+  add_filter '/channels'
+  add_filter '/mailers'
+  add_filter '/helpers'
+  add_filter '/jobs'
+  # add_filter '/libraries'
+  add_filter '/models/lead'
+  # add_filter '/models/application_record'
+  # add_filter '/models/setting'
+  # add_filter '/models/outreach'
+  # add_filter '/models/event'
+  add_filter '/models/daily_progress_log'
+  add_filter '/models/admin'
 end
 
 SimpleCov.minimum_coverage 100
