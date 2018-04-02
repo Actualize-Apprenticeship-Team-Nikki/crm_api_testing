@@ -22,3 +22,5 @@
 
 # Coverage results are not tracked by Git
 coverage
+
+Gemfile.lock
