@@ -4,5 +4,11 @@ rvm:
  - jruby
  - rbx-3
 
+env:
+  - DB=pgsql
+
 services:
   - postgresql
+
+before_script:
+  - psql -c 'create database crm_api_testing_test;' -U postgres
