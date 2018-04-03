@@ -1,6 +1,13 @@
 require 'simplecov'
 SimpleCov.start "rails" do
-  add_filter '/controllers'
+  add_filter '/controllers/application_controller'
+  add_filter '/controllers/daily_progress_logs_controller'
+  add_filter '/controllers/leads_controller'
+  add_filter '/controllers/outreaches_controller'
+  add_filter '/controllers/settings_controller'
+  add_filter '/controllers/webhooks_controller'
+  add_filter '/controllers/api/v1/leads_controller'
+
   add_filter '/channels'
   add_filter '/mailers'
   add_filter '/helpers'
