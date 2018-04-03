@@ -8,16 +8,18 @@ SimpleCov.start "rails" do
   add_filter '/controllers/webhooks_controller'
   add_filter '/controllers/api/v1/leads_controller'
 
-  add_filter '/channels'
-  add_filter '/mailers'
-  add_filter '/helpers'
-  add_filter '/jobs'
-  # add_filter '/libraries'
+  add_filter '/channels/application_cable/channel'
+  add_filter '/channels/application_cable/connection'
+
+  add_filter '/mailers/application_mailer'
+  add_filter '/mailers/calendar_invites_mailer'
+  add_filter '/mailers/welcome_mailer'
+
+  add_filter '/helpers/leads_helper'
+
+  add_filter '/jobs/application_job'
+
   add_filter '/models/lead'
-  # add_filter '/models/application_record'
-  # add_filter '/models/setting'
-  # add_filter '/models/outreach'
-  # add_filter '/models/event'
   add_filter '/models/daily_progress_log'
   add_filter '/models/admin'
 end

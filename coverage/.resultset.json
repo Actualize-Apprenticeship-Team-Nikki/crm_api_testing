@@ -527,29 +527,49 @@
   },
   "RSpec": {
     "coverage": {
-      "/Users/john/Actualize/crm_api_testing/app/models/application_record.rb": [
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/john/Actualize/crm_api_testing/app/models/event.rb": [
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/daily_progress_logs_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/outreaches_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/settings_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/webhooks_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/event.rb": [
         1,
         1,
         null
       ],
-      "/Users/john/Actualize/crm_api_testing/app/models/outreach.rb": [
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/outreach.rb": [
         1,
         1,
         null,
         1,
         null
       ],
-      "/Users/john/Actualize/crm_api_testing/app/models/setting.rb": [
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/setting.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1522714773
+    "timestamp": 1522716989
   }
 }
