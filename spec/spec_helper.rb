@@ -1,6 +1,6 @@
 require 'simplecov'
 SimpleCov.start "rails" do
-  add_filter '/controllers/application_controller'
+  # add_filter '/controllers/application_controller'
   add_filter '/controllers/daily_progress_logs_controller'
   add_filter '/controllers/leads_controller'
   add_filter '/controllers/outreaches_controller'
