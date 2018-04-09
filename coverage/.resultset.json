@@ -552,6 +552,11 @@
         1,
         null
       ],
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/daily_progress_log.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/event.rb": [
         1,
         1,
@@ -570,6 +575,6 @@
         null
       ]
     },
-    "timestamp": 1522716989
+    "timestamp": 1523317015
   }
 }

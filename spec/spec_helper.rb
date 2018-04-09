@@ -20,7 +20,7 @@ SimpleCov.start "rails" do
   add_filter '/jobs/application_job'
 
   add_filter '/models/lead'
-  add_filter '/models/daily_progress_log'
+  # add_filter '/models/daily_progress_log'
   add_filter '/models/admin'
 end
 
