@@ -53,6 +53,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'simplecov', require: false, group: :test
   gem 'rspec-rails', '~> 3.7'
+  gem 'shoulda-matchers', '~> 3.1'
   gem 'factory_bot_rails'
 end
 
