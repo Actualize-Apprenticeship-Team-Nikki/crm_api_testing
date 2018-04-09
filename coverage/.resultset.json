@@ -573,8 +573,19 @@
         1,
         1,
         null
+      ],
+      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/mailers/welcome_mailer.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1523318001
+    "timestamp": 1523318235
   }
 }
