@@ -21,7 +21,7 @@ SimpleCov.start "rails" do
 
   add_filter '/models/lead'
   add_filter '/models/daily_progress_log'
-  add_filter '/models/admin'
+  # add_filter '/models/admin'
 end
 
 SimpleCov.minimum_coverage 100

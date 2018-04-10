@@ -12,6 +12,6 @@ class Admin < ApplicationRecord
     log.increment(:processed)
     log.increment(:connects) if lead.connected
     log.increment(:sets) if lead.appointment_date
-    log.save
+    log.save 
   end
 end
