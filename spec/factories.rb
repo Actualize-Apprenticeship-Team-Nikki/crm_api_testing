@@ -1,6 +1,7 @@
 FactoryBot.define do
 
   factory :lead do
+    id 1
     first_name 'John'
     last_name 'Doe'
     email 'jdoe@email.com'

@@ -527,7 +527,7 @@
   },
   "RSpec": {
     "coverage": {
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/models/admin.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/admin.rb": [
         1,
         null,
         null,
@@ -538,58 +538,59 @@
         1,
         null,
         1,
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
         null,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/models/application_record.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/helpers/application_helper.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/helpers/daily_progress_logs_helper.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/daily_progress_logs_helper.rb": [
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/helpers/outreaches_helper.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/outreaches_helper.rb": [
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/helpers/settings_helper.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/settings_helper.rb": [
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/helpers/webhooks_helper.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/webhooks_helper.rb": [
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/models/event.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/event.rb": [
         1,
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/models/outreach.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/outreach.rb": [
         1,
         1,
         null,
         1,
         null
       ],
-      "/Users/jaewonpark/Actualize/apprenticeship/crm_api_testing/app/models/setting.rb": [
+      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/setting.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1523322924
+    "timestamp": 1523580839
   }
 }
