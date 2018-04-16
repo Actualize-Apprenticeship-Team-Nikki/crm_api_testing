@@ -527,65 +527,65 @@
   },
   "RSpec": {
     "coverage": {
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/application_record.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/application_helper.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/daily_progress_logs_helper.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/helpers/daily_progress_logs_helper.rb": [
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/outreaches_helper.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/helpers/outreaches_helper.rb": [
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/settings_helper.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/helpers/settings_helper.rb": [
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/helpers/webhooks_helper.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/helpers/webhooks_helper.rb": [
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/mailers/welcome_mailer.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/mailers/welcome_mailer.rb": [
         1,
         1,
         null,
         1,
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         null,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/daily_progress_log.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/models/daily_progress_log.rb": [
         1,
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/event.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/models/event.rb": [
         1,
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/outreach.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/models/outreach.rb": [
         1,
         1,
         null,
         1,
         null
       ],
-      "/Users/benjaminsinaiko/Actualize/apprenticeship/crm_api_testing/app/models/setting.rb": [
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/models/setting.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1523579987
+    "timestamp": 1523921886
   }
 }

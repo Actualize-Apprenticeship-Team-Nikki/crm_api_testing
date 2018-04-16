@@ -13,6 +13,12 @@ RSpec.describe WelcomeMailer, :type => :mailer do
       expect(mail.to).to eql(['jdoe@email.com'])
     end
 
+    it "shouldn't have email, email = nil" do
+      lead = build(:lead, email:  nil)
+      mail = WelcomeMailer.welcome_email(lead)
+      expect(mail.to).to eql([])
+    end
+
     it "sends from the admissions email address" do
       expect(mail.from).to eq(['admissions@actualize.co'])
     end
@@ -26,4 +32,5 @@ RSpec.describe WelcomeMailer, :type => :mailer do
     end
 
   end
+
 end
