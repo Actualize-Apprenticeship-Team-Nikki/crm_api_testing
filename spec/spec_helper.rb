@@ -13,14 +13,14 @@ SimpleCov.start "rails" do
 
   add_filter '/mailers/application_mailer'
   add_filter '/mailers/calendar_invites_mailer'
-  add_filter '/mailers/welcome_mailer'
+  # add_filter '/mailers/welcome_mailer'
 
   add_filter '/helpers/leads_helper'
 
   add_filter '/jobs/application_job'
 
   add_filter '/models/lead'
-  add_filter '/models/daily_progress_log'
+  # add_filter '/models/daily_progress_log'
   add_filter '/models/admin'
 end
 
