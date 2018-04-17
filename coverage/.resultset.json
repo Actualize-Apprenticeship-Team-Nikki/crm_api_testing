@@ -552,6 +552,49 @@
         1,
         null
       ],
+      "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/mailers/calendar_invites_mailer.rb": [
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        0,
+        null,
+        null
+      ],
       "/Users/colechalland/Actualize/Apprenticeship/crm_api_testing/app/mailers/welcome_mailer.rb": [
         1,
         1,
@@ -586,6 +629,6 @@
         null
       ]
     },
-    "timestamp": 1523921886
+    "timestamp": 1523927018
   }
 }
