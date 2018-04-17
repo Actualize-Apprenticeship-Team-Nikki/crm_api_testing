@@ -32,5 +32,6 @@ FactoryBot.define do
   factory :daily_progress_log do
     admin
     id 1 
+    date Date.today
   end
 end
