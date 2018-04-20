@@ -527,7 +527,7 @@
   },
   "RSpec": {
     "coverage": {
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/admin.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/models/admin.rb": [
         1,
         null,
         null,
@@ -538,57 +538,57 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
+        5,
+        5,
+        5,
+        5,
+        5,
         null,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/application_record.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/application_helper.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/daily_progress_logs_helper.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/helpers/daily_progress_logs_helper.rb": [
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/outreaches_helper.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/helpers/outreaches_helper.rb": [
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/settings_helper.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/helpers/settings_helper.rb": [
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/helpers/webhooks_helper.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/helpers/webhooks_helper.rb": [
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/event.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/models/event.rb": [
         1,
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/outreach.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/models/outreach.rb": [
         1,
         1,
         null,
         1,
         null
       ],
-      "/Users/cheryldillard/Actualize/crm_api_testing/app/models/setting.rb": [
+      "/Users/john/Actualize/crm_api_testing/app/models/setting.rb": [
         1,
         1,
         null
       ]
     },
-    "timestamp": 1523926422
+    "timestamp": 1524186132
   }
 }
