@@ -97,26 +97,73 @@ RSpec.describe Admin, type: :model do
     end
 
     context "when a daily progress log doesn't exist" do
+
+      it "creates a daily progress log" do 
+        admin = create(:admin)
+        lead = build(:lead)
+        admin.record_progress(lead)
+        log = DailyProgressLog.last
+        expect(log).to be_valid
+      end
+
+      it "increments the processed attribute by 1" do
+        admin = create(:admin)
+        lead = build(:lead)
+        admin.record_progress(lead)
+        log = DailyProgressLog.last
+        expect(log.processed).to eq(1)
+      end
+
+      context "when lead.connected is truthy" do
+
+        it "increments the connects attribute by 1" do
+          admin = create(:admin)
+          lead = build(:lead, connected: true)
+          admin.record_progress(lead)
+          log = DailyProgressLog.last
+          expect(log.connects).to eq(1)
+        end
+
+      end
+
+      context "when lead.connected is falsey" do
+
+        it "does not increment the connects attribute" do
+          admin = create(:admin)
+          lead = build(:lead, connected: false)
+          admin.record_progress(lead)
+          log = DailyProgressLog.last
+          expect(log.connects).to eq(0)
+        end
+
+      end
+
+      context "when lead.appointment_date is a valid datetime" do
+
+        it "increments the sets attribute by 1" do
+          admin = create(:admin)
+          lead = build(:lead, appointment_date: "2018-03-20 05:00:00")
+          admin.record_progress(lead)
+          log = DailyProgressLog.last
+          expect(log.sets).to eq(1)
+        end
+
+      end
+
+      context "when lead.appointment_date is not a valid datetime" do
+
+        it "does not increment the sets attribute" do
+          admin = create(:admin)
+          lead = build(:lead, appointment_date: nil)
+          admin.record_progress(lead)
+          log = DailyProgressLog.last
+          expect(log.sets).to eq(0)
+        end
+
+      end
+
     end
 
-
-
-
   end 
-
-  # it "creates a daily progress log if one doesn't exist" do
-  #   admin = build(:admin)
-  #   lead = build(:lead)
-  #   p lead
-  #   # log = build(:daily_progress_log)
-  #   expect(Admin.record_progress(lead)).to be_valid
-  #   p lead
-  # end
-
-  # it "updates a daily progress log" do
-  #   admin = build(:admin)
-  #   lead = build(:lead)
-  #   daily_progress_log = build(:daily_progress_log)
-  #   expect(admin.record_progress(lead)).to eql(true)
-  # end
+  
 end

@@ -14,7 +14,7 @@
       <img src="./assets/0.10.1/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-19T20:02:12-05:00">2018-04-19T20:02:12-05:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2018-04-19T20:34:42-05:00">2018-04-19T20:34:42-05:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.83
+         3.08
        </span>
     </span> hits/line)
   </h2>
@@ -107,7 +107,7 @@
         <td>10</td>
         <td>10</td>
         <td>0</td>
-        <td>3.0</td>
+        <td>6.0</td>
       </tr>
       
       <tr>
@@ -200,7 +200,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.05
+         3.63
        </span>
     </span> hits/line)
   </h2>
@@ -232,7 +232,7 @@
         <td>10</td>
         <td>10</td>
         <td>0</td>
-        <td>3.0</td>
+        <td>6.0</td>
       </tr>
       
       <tr>
@@ -717,32 +717,32 @@
           <code class="ruby">  def record_progress(lead)</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="11">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="11" data-linenumber="11">
+          <span class="hits">11</span>
           
           <code class="ruby">    log = DailyProgressLog.find_or_create_by(admin_id: self.id, date: Date.today)</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="12">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="11" data-linenumber="12">
+          <span class="hits">11</span>
           
           <code class="ruby">    log.increment(:processed)</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="13">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="11" data-linenumber="13">
+          <span class="hits">11</span>
           
           <code class="ruby">    log.increment(:connects) if lead.connected</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="14">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="11" data-linenumber="14">
+          <span class="hits">11</span>
           
           <code class="ruby">    log.increment(:sets) if lead.appointment_date</code>
         </li>
       
-        <li class="covered" data-hits="5" data-linenumber="15">
-          <span class="hits">5</span>
+        <li class="covered" data-hits="11" data-linenumber="15">
+          <span class="hits">11</span>
           
           <code class="ruby">    log.save </code>
         </li>
