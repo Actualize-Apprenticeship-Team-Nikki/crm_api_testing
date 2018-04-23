@@ -21,4 +21,4 @@
 .DS_Store
 
 # Coverage results are not tracked by Git
-coverage
+/coverage
