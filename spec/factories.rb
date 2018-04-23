@@ -1,6 +1,7 @@
 FactoryBot.define do
 
   factory :lead do
+    id 1
     first_name 'John'
     last_name 'Doe'
     email 'jdoe@email.com'
@@ -17,6 +18,7 @@ FactoryBot.define do
   end
   
   factory :admin do
+    id 1
     email 'test@test.com'
     password 'password'
   end
@@ -26,5 +28,9 @@ FactoryBot.define do
     auto_text_content "More text"
   end
 
-
+  factory :daily_progress_log do
+    admin
+    id 1 
+    date Date.today
+  end
 end

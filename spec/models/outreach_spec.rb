@@ -4,7 +4,6 @@ RSpec.describe Lead, type: :model do
 
   it "creates an outreach" do
     outreach = build(:outreach)
-    p outreach    
   end
 
 end
