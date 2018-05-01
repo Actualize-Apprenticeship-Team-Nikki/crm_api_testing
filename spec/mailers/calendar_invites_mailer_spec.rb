@@ -10,6 +10,10 @@ RSpec.describe CalendarInvitesMailer, :type => :mailer do
       expect(lead).to be_valid
     end
 
+    it "has a valid first name" do 
+      expect(lead.first_name).not_to be_empty
+    end
+
     it "has a valid advisor" do 
       expect(lead.advisor).not_to be_empty
     end
@@ -30,10 +34,11 @@ RSpec.describe CalendarInvitesMailer, :type => :mailer do
       expect(mail.attachments[0].filename).to include('event.ics')
     end
 
-    # it 'sends with the correct subject' do
-    #   expect(mail.subject).to eq["ACTUALIZE #{lead.location}: Meeting - #{lead.first_name} <> #{lead.advisor}"]
-    # end
+    it 'sends with the correct subject' do
+      expect(mail.subject).to eq "ACTUALIZE #{lead.location}: Meeting - #{lead.first_name} <> #{lead.advisor}"
+    end
   end
+
   # describe "test appointment method" do
   #   let(:lead) { build(:lead) }
   #   let(:mail) { CalendarInvitesMailer.appointment(lead)}
