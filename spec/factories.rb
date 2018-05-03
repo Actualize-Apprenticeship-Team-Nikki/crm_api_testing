@@ -5,6 +5,8 @@ FactoryBot.define do
     first_name 'John'
     last_name 'Doe'
     email 'jdoe@email.com'
+    advisor 'Nick'
+    appointment_date Date.today
   end
 
   factory :event do
